@@ -1,6 +1,6 @@
 ## Hey, I'm Guilherme Silva 👋
-<a href="https://www.linkedin.com/in/guilherme-moraes-da-silva-b368a81a0/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="https://www.linkedin.com/in/italo-moura/" height="40" width="40" /></a>
-
+<a href="https://www.linkedin.com/in/guilherme-moraes-da-silva-b368a81a0/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="https://www.linkedin.com/in/guilherme-moraes-da-silva-b368a81a0/" height="40" width="40" /></a>
+<a href="https://discord.gg/dFFNgbTT" target="_blank"><img align="center" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" alt="Discord" height="40" width="40" /></a>
 ---
 
 ### About
@@ -24,6 +24,7 @@
   <img align="center" alt="Oracle" height="40" width="40" src="https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg">
   <img align="center" alt="Postgre" height="40" width="40" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg">
   <img align="center" alt="Postman" height="40" width="40" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg">
+  <img align="right" alt="Gui-pic" height="150" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/341705145006030848/1012203839669153843/61_Sem_Titulo_20220825003623.png">
 </div>
 
 ---
