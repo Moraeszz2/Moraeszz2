@@ -5,11 +5,11 @@
 
 ### About
 * 🏫 I graduated as systems analysis and development at - **[Anhanguera](https://www.anhanguera.com/)**
-* 💻 I'm a full stack developer at - **[Infoar](http://www.infoar.com.br/)**
+* 💻 I'm a full stack developer at - **[Webcontinental](https://www.webcontinental.com.br)**
 
 ---
 
-### 🤖 Most Used Technologies
+### 🌍 Most Used Technologies 🌍
 <div style="display: inline_block; padding:5px;"><br>
   <img align="center" alt="HTML" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
