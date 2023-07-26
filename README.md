@@ -1,6 +1,6 @@
 ## Hi my name is Moraes, an emo programmer with basic English. Follow a little about me 👋
 <a href="https://www.linkedin.com/in/guilherme-moraes-da-silva-b368a81a0/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="https://www.linkedin.com/in/guilherme-moraes-da-silva-b368a81a0/" height="40" width="40" /></a>
-<a href="https://discord.gg/dFFNgbTT" target="_blank"><img align="center" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" alt="Discord" height="40" width="40" /></a>
+<a href="https://discord.gg/3XdzUsjF" target="_blank"><img align="center" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" alt="Discord" height="40" width="40" /></a>
 ---
 
 ### About
