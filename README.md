@@ -11,7 +11,8 @@
 
 ### 🌍 Most Used Technologies 🌍
 <div style="display: inline_block; padding:5px;"><br>
-    <label> FRONTEND SKILLS </label>
+    <label style = "font-weight: 600"> FRONTEND SKILLS </label>
+    <br>
   <div>
     <img align="center" alt="HTML" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img align="center" alt="CSS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -19,7 +20,8 @@
     <img align="center" alt="React" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg">
     <img align="center" alt="VUE" height="40" width="40" src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg">
   </div>
-  <label> BACKEND SKILLS </label>
+    <label style = "font-weight: 600"> BACKEND SKILLS </label>
+    <br>
   <div>
     <img align="center" alt="NodeJs" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
     <img align="center" alt="GO" height="40" width="40" src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg">
