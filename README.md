@@ -20,7 +20,7 @@
     <img align="center" alt="React" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg">
     <img align="center" alt="VUE" height="40" width="40" src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg">
   </div>
-    <label style = "font-weight: bold"> BACKEND SKILLS </label>
+    <p font-weight="bold"> BACKEND SKILLS </p>
     <br>
   <div>
     <img align="center" alt="NodeJs" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
@@ -28,7 +28,7 @@
     <img align="center" alt="JAVA" height="40" width="40" src="https://www.vectorlogo.zone/logos/java/java-icon.svg">
     <img align="center" alt="PHP" height="40" width="40" src="https://www.vectorlogo.zone/logos/php/php-icon.svg">
   </div>
-    <label style = "font-weight: bold"> TOOLS SKILLS </label>
+    <p font-weight="bold"> TOOLS SKILLS </p>
     <br>
   <div>
     <img align="center" alt="Postman" height="40" width="40" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg">
