@@ -35,13 +35,9 @@
 </div>
 
 ---
-<div  id="hubStatus">
-    <div>
-      <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github" alt="GitHub Stats" width="400 !important" /> 
-    </div>
-    <div>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&layout=donut" alt="Top Langs" width="200 !important"/>
-    </div>
+<div>
+  <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github" alt="GitHub Stats"/> 
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&layout=donut" alt="Top Langs"/>
 </div>
 
 ---
