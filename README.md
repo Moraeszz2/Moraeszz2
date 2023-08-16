@@ -40,7 +40,7 @@
       <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github" alt="GitHub Stats" /> 
     </div>
     <div>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&layout=donut" alt="Top Langs" height="30 !important"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&layout=donut" alt="Top Langs" height="50 !important" width="400 !important"/>
     </div>
 </div>
 
