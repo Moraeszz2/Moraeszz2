@@ -38,7 +38,7 @@
 </div>
 
 ---
-<p display="flex">
+<p style="background:red">
   <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight" alt="github stats" width="340 !important"/> 
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&layout=compact&theme=tokyonight" alt="Top Langs" width="340 !important"/>
 </p>
