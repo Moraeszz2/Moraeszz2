@@ -40,7 +40,7 @@
 ---
 <div  id="hubStatus">
     <div>
-      <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight" alt="github stats" width="340 !important"/> 
+      <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github" alt="GitHub Stats" width="340 !important"/> 
     </div>
     <div>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&layout=compact&theme=tokyonight" alt="Top Langs" width="340 !important"/>
@@ -52,8 +52,3 @@
 
 
 
-<script>
-    #hubStatus {
-        display: flex;
-    }
-</script>
