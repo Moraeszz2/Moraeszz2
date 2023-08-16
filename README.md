@@ -12,7 +12,6 @@
 ### 🌍 Most Used Technologies 🌍
 <div style="display: inline_block; padding:5px;"><br>
     <p font-weight="bold"> FRONTEND SKILLS </p>
-    <br>
   <div>
     <img align="center" alt="HTML" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img align="center" alt="CSS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -21,7 +20,6 @@
     <img align="center" alt="VUE" height="40" width="40" src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg">
   </div>
     <p font-weight="bold"> BACKEND SKILLS </p>
-    <br>
   <div>
     <img align="center" alt="NodeJs" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
     <img align="center" alt="GO" height="40" width="40" src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg">
@@ -29,7 +27,6 @@
     <img align="center" alt="PHP" height="40" width="40" src="https://www.vectorlogo.zone/logos/php/php-icon.svg">
   </div>
     <p font-weight="bold"> TOOLS SKILLS </p>
-    <br>
   <div>
     <img align="center" alt="Postman" height="40" width="40" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg">
     <img align="center" alt="Postman" height="40" width="40" src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg">
