@@ -11,7 +11,7 @@
 
 ### 🌍 Most Used Technologies 🌍
 <div style="display: inline_block; padding:5px;"><br>
-    <label style = "font-weight: bold"> FRONTEND SKILLS </label>
+    ### FRONTEND SKILLS 
     <br>
   <div>
     <img align="center" alt="HTML" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
