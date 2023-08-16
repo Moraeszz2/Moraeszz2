@@ -38,7 +38,7 @@
 </div>
 
 ---
-<div  style="display:flex; background: red;">
+<div  id="hubStatus">
     <div>
       <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight" alt="github stats" width="340 !important"/> 
     </div>
@@ -48,3 +48,12 @@
 </div>
 
 ---
+
+
+
+
+<script>
+    #hubStatus {
+        display: flex;
+    }
+</script>
