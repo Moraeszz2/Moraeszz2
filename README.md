@@ -31,6 +31,8 @@
   <div>
     <img align="center" alt="Postman" height="40" width="40" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg">
     <img align="center" alt="Postman" height="40" width="40" src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg">
+    <img align="center" alt="Postman" height="40" width="40" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg">
+    <img align="center" alt="Postman" height="40" width="40" src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg">
     <img align="right" alt="Gui-pic" height="145" style="border-radius:30px;" src="https://cdn.discordapp.com/attachments/341705145006030848/1012203839669153843/61_Sem_Titulo_20220825003623.png">
   </div>
 </div>
