@@ -10,7 +10,7 @@
 ---
 
 ### 🌍 Most Used Technologies 🌍
-<div style="display: flex;">
+<div display="flex">
     <p font-weight="bold"> FRONTEND SKILLS </p>
   <div>
     <img align="center" alt="HTML" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
