@@ -25,6 +25,7 @@
     <img align="center" alt="GO" height="40" width="40" src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg">
     <img align="center" alt="JAVA" height="40" width="40" src="https://www.vectorlogo.zone/logos/java/java-icon.svg">
     <img align="center" alt="PHP" height="40" width="40" src="https://www.vectorlogo.zone/logos/php/php-icon.svg">
+    <img align="center" alt="PHP" height="40" width="40" src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg">
   </div>
     <p font-weight="bold"> TOOLS SKILLS </p>
   <div>
