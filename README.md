@@ -1,15 +1,18 @@
-## 👋 Hello, my name is Guilherme, I am a full programmer and I am becoming a senior programmer. Follow a little about me! 👋
+## 👋 Hello, my name is Guilherme, I am a full-stack developer and I am transitioning to becoming a senior programmer. Follow a little about me!
+
+### ✉️ Contato
 <a href="https://www.linkedin.com/in/guilherme-moraes-da-silva-b368a81a0/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="40" width="40" /></a>
 <a href="https://discord.gg/3XdzUsjF" target="_blank"><img align="center" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" alt="Discord" height="40" width="40" /></a>
 
+
 ### About
 * 🏫 I graduated in Systems Analysis and Development at [Anhanguera](https://www.anhanguera.com/)
-* 💻 I'm a full stack developer at [Webcontinental](https://www.webcontinental.com.br)
+* 💻 I'm a full-stack developer at [Webcontinental](https://www.webcontinental.com.br)
 
 ### 🌍 Most Used Technologies 🌍 ###
 <div style="display: flex;">
     <div>
-        <p> ## 🛠️ Minha Stack </p>
+        <p> 🛠️ My Stack </p>
         <p font-weight="bold">FRONTEND SKILLS</p>
         <img align="center" alt="HTML" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
         <img align="center" alt="CSS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
