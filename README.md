@@ -1,21 +1,23 @@
-<div style="display: flex; justify-content: center; flex-direction: column;">
+👋 Hello, my name is Guilherme!
 
-
-    ## 👋 Hello, my name is Guilherme, I am a full-stack developer and I am transitioning to becoming a senior programmer. Follow a little about me!
-
-    ### ✉️ Contato
-    <div style="display: inline-flex;">
-        <a href="https://www.linkedin.com/in/guilherme-m-b368a81a0/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="40" width="40" style="padding: 5px;"/></a>
-        <a href="https://discord.gg/3XdzUsjF" target="_blank"><img align="center" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" alt="Discord" height="40" width="40" style="padding: 5px;"/></a>
+<div style="display: flex; flex-direction: column;">
+    ![](https://komarev.com/ghpvc/?username=Moraeszz2&style=for-the-badge&color=9b70f0)
+    <div>
+        ✉️ Contato
+        <div style="display: inline-flex; flex-direction: column;">
+            <a href="https://www.linkedin.com/in/guilherme-m-b368a81a0/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="40" width="40" style="padding: 5px;"/></a>
+            <a href="https://discord.gg/3XdzUsjF" target="_blank"><img align="center" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" alt="Discord" height="40" width="40" style="padding: 5px;"/></a>
+        </div>
     </div>
-
-
-    ### About
-    * 🏫 I graduated in Systems Analysis and Development at [Anhanguera](https://www.anhanguera.com/)
-    * 💻 I'm a full-stack developer at [Webcontinental](https://www.webcontinental.com.br)
-
-    ### 🌍 Most Used Technologies 🌍 ###
-    <div style="display: flex;">
+    <div> 
+        🙋🏻‍♂️ About
+         <div style="display: inline-flex; flex-direction: column;">
+            <p> - 🏫 I graduated in Systems Analysis and Development at [Anhanguera](https://www.anhanguera.com/) </p> 
+            <p> - 💻 I'm a full-stack developer at [Webcontinental](https://www.webcontinental.com.br) </p> 
+        </div>
+    </div>
+    🌍 Most Used Technologies 🌍
+    <div style="display: flex; padding: 5px;">
         <p> 🛠️ My Stack </p>
         <img align="center" alt="HTML" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" style="padding: 5px;">
         <img align="center" alt="CSS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" style="padding: 5px;">
@@ -32,8 +34,7 @@
         <img align="center" alt="MySQL" height="40" width="40" src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" style="padding: 5px;">
         <img align="center" alt="RabbitMQ" height="40" width="40" src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" style="padding: 5px;">
     </div>
-
-    <div>
+    <div style="display: flex; padding: 5px;">
         <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github" alt="GitHub Stats"/> 
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&layout=compact" alt="Top Langs"/>
         <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Moraeszz2&theme=aura" alt="GitHub Streak"/>
