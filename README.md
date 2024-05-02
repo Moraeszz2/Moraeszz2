@@ -26,6 +26,13 @@
     <img src="https://img.shields.io/badge/-Java-E34A86?style=for-the-badge&logo=java&logoColor=black"/>
 </p>
 
+<h2 align="center">Top Open Source</h2>
+<div style="display: flex;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=LOL-PROFIELE-BOT&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=backend-legado-veiculos&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF"/>
+</div>
+
+
 <h2 align="center">My Status Github</h2>
 
 <p align="center">
@@ -33,8 +40,9 @@
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moraeszz2&theme=tokyonight" alt="Saif's GitHub streak"/>
   </a>
 </p>
-
-<p align="center" style="display: flex; justify-content: center;">
-    <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github&border_color=#70A5FD&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&layout=compact" alt="Al Siam's GitHub Contribution" height="195rem" />
+<p align="center">
+    <a>
+        <a><img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github&border_color=#70A5FD&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&" height="192px"/></a>
+        <a><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&layout=compact" alt="GitHub Contribution" height="192px"/></a>
+    </a>
 </p>
