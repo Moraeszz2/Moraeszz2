@@ -30,6 +30,7 @@
 <div style="display: flex;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=LOL-PROFIELE-BOT&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF"/>
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=backend-legado-veiculos&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=SnakeGame&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF"/>
 </div>
 
 
