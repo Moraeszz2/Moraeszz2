@@ -1,49 +1,54 @@
-![banner](https://github.com/Moraeszz2/Moraeszz2/blob/main/images/banner-my-name.gif)
+<div align="center">
 
-<p align="center">
-    <img src="https://komarev.com/ghpvc/?username=Moraeszz2&style=for-the-badge&color=blue&abbreviated=true" />
-</p>
+<img src="https://github.com/Moraeszz2/Moraeszz2/blob/main/images/banner-my-name.gif" width="100%" alt="banner"/>
 
-<h2 align="center">Technology Stack <img src="https://github.com/ritik307/ritik307/blob/main/images/laptop.gif" width="50"></h2>
+<img src="https://komarev.com/ghpvc/?username=Moraeszz2&style=for-the-badge&color=3B82F6&abbreviated=true" alt="profile views"/>
 
-<p align="center">
-    <img src="https://img.shields.io/badge/-golang-007ACC?style=for-the-badge&logo=go&logoColor=007ACC&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-react-007ACC?style=for-the-badge&logo=react&logoColor=007ACC&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=007ACC&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-antdesign-007ACC?style=for-the-badge&logo=antdesign&logoColor=007ACC&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-docker-007ACC?style=for-the-badge&logo=DOCKER&logoColor=007ACC&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-css3-007ACC?style=for-the-badge&logo=css3&logoColor=007ACC&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-mysql-007ACC?style=for-the-badge&logo=mysql&logoColor=007ACC&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-rabbit-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=FF6600&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-git-FF6600?style=for-the-badge&logo=git&logoColor=FF6600&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-html5-FF6600?style=for-the-badge&logo=html5&logoColor=FF6600&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-nodejs-3C873A?style=for-the-badge&logo=NODE.JS&logoColor=3C873A&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-vuejs-3C873A?style=for-the-badge&logo=vue.js&logoColor=3C873A&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-mongodb-3C873A?style=for-the-badge&logo=mongodb&logoColor=3C873A&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-php-787CB4?style=for-the-badge&logo=php&logoColor=787CB4&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-javascript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=F0DB4F&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-nestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=E0234E&labelColor=black"/>
-    <img src="https://img.shields.io/badge/-Java-E34A86?style=for-the-badge&logo=java&logoColor=black"/>
-</p>
-
-<h2 align="center">Top Open Source</h2>
-<div style="display: flex;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=LOL-PROFILE-BOT&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF"/>
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=API-COM-IA&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF"/>
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=SnakeGame&border_color=7F3FBF&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=7F3FBF"/>
 </div>
 
-
-<h2 align="center">My Status Github</h2>
+<h2 align="center">🛠️ Technology Stack</h2>
 
 <p align="center">
-  <a href="https://github.com/Moraeszz2">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moraeszz2&theme=tokyonight" alt="Saif's GitHub streak"/>
-  </a>
+    <img src="https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-React-00ADD8?style=for-the-badge&logo=react&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-TypeScript-00ADD8?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-Ant_Design-00ADD8?style=for-the-badge&logo=antdesign&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-Docker-00ADD8?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117"/>
 </p>
 <p align="center">
-    <a>
-        <a><img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github&border_color=#70A5FD&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&" height="192px"/></a>
-        <a><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&layout=compact" alt="GitHub Contribution" height="192px"/></a>
-    </a>
+    <img src="https://img.shields.io/badge/-CSS3-FF6D2E?style=for-the-badge&logo=css3&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-MySQL-FF6D2E?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-RabbitMQ-FF6D2E?style=for-the-badge&logo=rabbitmq&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-Git-FF6D2E?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-HTML5-FF6D2E?style=for-the-badge&logo=html5&logoColor=white&labelColor=0D1117"/>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/-Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-Vue.js-3C873A?style=for-the-badge&logo=vue.js&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-MongoDB-3C873A?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-PHP-787CB4?style=for-the-badge&logo=php&logoColor=white&labelColor=0D1117"/>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=black&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white&labelColor=0D1117"/>
+    <img src="https://img.shields.io/badge/-Java-E34A86?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=0D1117"/>
+</p>
+
+<h2 align="center">📌 Top Open Source</h2>
+
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=LOL-PROFILE-BOT&border_color=3B82F6&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=3B82F6"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=API-COM-IA&border_color=3B82F6&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=3B82F6"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=SnakeGame&border_color=3B82F6&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=3B82F6"/>
+</div>
+
+<h2 align="center">📊 GitHub Stats</h2>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moraeszz2&theme=tokyonight&border_color=3B82F6&background=0D1117" alt="GitHub streak"/>
+</p>
+
+<p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github&border_color=3B82F6&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&border_color=3B82F6&bg_color=0D1117&title_color=F85D7F" height="192px"/>
 </p>
