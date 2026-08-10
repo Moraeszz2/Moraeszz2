@@ -37,6 +37,7 @@
 <h2 align="center">📌 Top Open Source</h2>
 
 <div align="center">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=PadLume&border_color=3B82F6&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=3B82F6"/>
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=LOL-PROFILE-BOT&border_color=3B82F6&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=3B82F6"/>
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=API-COM-IA&border_color=3B82F6&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=3B82F6"/>
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=SnakeGame&border_color=3B82F6&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=3B82F6"/>
