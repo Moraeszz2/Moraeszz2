@@ -690,7 +690,6 @@ function buildViewAll() {
 const BAND = { W: 1200, H: 110, btn: 72 };
 const BAND_LINKS = [
   { key: 'mail', icon: 'FiMail', label: 'Email' },
-  { key: 'github', icon: 'FiGithub', label: 'GitHub' },
   { key: 'linkedin', icon: 'FiLinkedin', label: 'LinkedIn' },
 ];
 function buildBandSlices() {
@@ -732,8 +731,8 @@ function buildBandSlices() {
 ${body}
 </svg>
 `;
-  const out = { 'band-left.svg': slice(0, x0, ''), 'band-right.svg': slice(x0 + btn * BAND_LINKS.length, x0, '') };
-  BAND_LINKS.forEach((l, i) => { out[`band-${l.key}.svg`] = slice(x0 + i * btn, btn, l.label); });
+  const out = { 'faixa-esquerda.svg': slice(0, x0, ''), 'faixa-direita.svg': slice(x0 + btn * BAND_LINKS.length, x0, '') };
+  BAND_LINKS.forEach((l, i) => { out[`faixa-${l.key}.svg`] = slice(x0 + i * btn, btn, l.label); });
   return out;
 }
 
