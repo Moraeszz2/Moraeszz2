@@ -813,29 +813,13 @@ function buildFooter() {
 }
 
 // ---------- main ----------
-const FALLBACK = join(ASSETS, 'repo-cache.json');
-let repo;
-try {
-  repo = await fetchRepo();
-  if (repo) writeFileSync(FALLBACK, JSON.stringify(repo, null, 2));
-} catch (err) {
-  console.warn('GitHub API falhou, usando cache:', err.message);
-}
-if (!repo) repo = JSON.parse(readFileSync(FALLBACK, 'utf8'));
-
+// O README usa só a seção Sobre; as outras funções ficam aqui para voltar com elas se quiser.
 mkdirSync(OUT, { recursive: true });
 const files = {
-  'hero.svg': buildHero(),
-  'marquee.svg': buildMarquee(),
-  'marquee-reverse.svg': buildMarquee({ reverse: true, tilt: 2 }),
-  'skills.svg': buildSkills(),
-  'repos.svg': buildRepos(repo),
-  'view-all.svg': buildViewAll(),
   'about.svg': buildAbout(),
   'social-mail.svg': buildSocial('FiMail', 'Email'),
   'social-github.svg': buildSocial('FiGithub', 'GitHub'),
   'social-linkedin.svg': buildSocial('FiLinkedin', 'LinkedIn'),
-  'footer.svg': buildFooter(),
 };
 for (const [name, content] of Object.entries(files)) {
   writeFileSync(join(OUT, name), content);
