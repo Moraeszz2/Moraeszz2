@@ -18,8 +18,6 @@
 <a href="https://github.com/Moraeszz2"><img src="images/social-github.svg" width="52" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/guilherme-da-silva-b368a81a0"><img src="images/social-linkedin.svg" width="52" alt="LinkedIn"/></a>
 
-<img src="https://raw.githubusercontent.com/Moraeszz2/Moraeszz2/output/snake-blood.svg" width="100%" alt="snake"/>
-
 <img src="images/footer.svg" width="100%" alt="feito com 💀 & muito café"/>
 
 </div>
