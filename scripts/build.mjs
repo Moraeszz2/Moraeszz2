@@ -77,7 +77,7 @@ const backdrop = (w, h, from = '#0d0410', to = '#12030a') => `
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${from}"/><stop offset="1" stop-color="${to}"/></linearGradient>
     <pattern id="scan" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1" fill="#fff" fill-opacity=".03"/></pattern>
-    <radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".75"/></radialGradient>
+    <linearGradient id="vig" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".6"/><stop offset=".18" stop-color="#000" stop-opacity="0"/><stop offset=".82" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".6"/></linearGradient>
     <filter id="noise" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .55 0"/></filter>
   </defs>
   <rect width="${w}" height="${h}" fill="url(#bg)"/>`;
@@ -684,14 +684,57 @@ function buildViewAll() {
   return svg(W, H, ['grotesk'], body, css, 'Ver todos no GitHub');
 }
 
-// botões sociais (About)
-function buildSocial(iconName, label) {
-  const S = 60;
+// faixa das redes sociais entre Sobre e Habilidades.
+// A faixa inteira é desenhada em cada fatia e o viewBox recorta a parte dela,
+// assim fundo, brilho e partículas emendam e cada botão continua clicável no README.
+const BAND = { W: 1200, H: 110, btn: 72 };
+const BAND_LINKS = [
+  { key: 'mail', icon: 'FiMail', label: 'Email' },
+  { key: 'github', icon: 'FiGithub', label: 'GitHub' },
+  { key: 'linkedin', icon: 'FiLinkedin', label: 'LinkedIn' },
+];
+function buildBandSlices() {
+  const { W, H, btn } = BAND;
+  const x0 = (W - btn * BAND_LINKS.length) / 2;
+  const cy = H / 2;
+  const buttons = BAND_LINKS.map((l, i) => {
+    const bx = x0 + i * btn + (btn - 48) / 2;
+    return `<g class="float" style="animation-duration:3s;animation-delay:-${i * 0.5}s">
+      <rect x="${bx}" y="${cy - 24}" width="48" height="48" rx="12" fill="#000" stroke="#9f1239" stroke-opacity=".7" stroke-width="2" filter="url(#btnglow)"/>
+      ${icon(l.icon, bx + 13, cy - 11, 22, '#fb7185')}
+    </g>`;
+  }).join('');
+  const lineL = x0 - 30, lineR = x0 + btn * BAND_LINKS.length + 30;
   const body = `
-  <defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#e11d48" flood-opacity=".35"/></filter></defs>
-  <rect x="8" y="8" width="44" height="44" rx="12" fill="#000" stroke="#9f1239" stroke-opacity=".6" stroke-width="2" filter="url(#g)"/>
-  ${icon(iconName, 20, 20, 20, '#fb7185')}`;
-  return svg(S, S, [], body, '', label);
+  ${backdrop(W, H, '#12030a', '#14040a')}
+  <defs>
+    <filter id="btnglow" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#e11d48" flood-opacity=".45"/></filter>
+    <linearGradient id="ll" x1="0" x2="1"><stop offset="0" stop-color="#e11d48" stop-opacity="0"/><stop offset="1" stop-color="#e11d48" stop-opacity=".7"/></linearGradient>
+    <linearGradient id="lr" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".7"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></linearGradient>
+  </defs>
+  ${particles(W, H, 13)}
+  <rect x="${lineL - 330}" y="${cy}" width="330" height="1.5" fill="url(#ll)"/>
+  <rect x="${lineR}" y="${cy}" width="330" height="1.5" fill="url(#lr)"/>
+  <circle cx="${lineL}" cy="${cy + .75}" r="3" fill="#e11d48"/>
+  <circle cx="${lineR}" cy="${cy + .75}" r="3" fill="#8b5cf6"/>
+  <text class="marker" x="${lineL - 40}" y="${cy - 14}" font-size="15" fill="#f43f5e" fill-opacity=".8" text-anchor="end" transform="rotate(-3 ${lineL - 40} ${cy - 14})">me chama aí</text>
+  ${ghost(70, cy + 12, '🕸️', 30, 0.3, 0.22)}
+  ${ghost(250, cy + 30, '🦇', 20, 1.4, 0.25)}
+  ${ghost(930, cy - 8, '🥀', 20, 0.8, 0.3)}
+  ${ghost(1110, cy + 14, '🕯️', 26, 2, 0.25)}
+  ${buttons}
+  <rect width="${W}" height="${H}" filter="url(#noise)" opacity=".05"/>
+  <rect width="${W}" height="${H}" fill="url(#scan)"/>
+  <rect width="${W}" height="${H}" fill="url(#vig)" opacity=".8"/>`;
+  const css = `${FONTS.marker()}${BASE_CSS}`;
+  const slice = (x, w, label) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${x} 0 ${w} ${H}" width="${w}" height="${H}" role="img" aria-label="${esc(label)}">
+<style>${css}</style>
+${body}
+</svg>
+`;
+  const out = { 'band-left.svg': slice(0, x0, ''), 'band-right.svg': slice(x0 + btn * BAND_LINKS.length, x0, '') };
+  BAND_LINKS.forEach((l, i) => { out[`band-${l.key}.svg`] = slice(x0 + i * btn, btn, l.label); });
+  return out;
 }
 
 // ---------- ABOUT ----------
@@ -818,9 +861,7 @@ mkdirSync(OUT, { recursive: true });
 const files = {
   'about.svg': buildAbout(),
   'skills.svg': buildSkills(),
-  'social-mail.svg': buildSocial('FiMail', 'Email'),
-  'social-github.svg': buildSocial('FiGithub', 'GitHub'),
-  'social-linkedin.svg': buildSocial('FiLinkedin', 'LinkedIn'),
+  ...buildBandSlices(),
 };
 for (const [name, content] of Object.entries(files)) {
   writeFileSync(join(OUT, name), content);
