@@ -813,10 +813,11 @@ function buildFooter() {
 }
 
 // ---------- main ----------
-// O README usa só a seção Sobre; as outras funções ficam aqui para voltar com elas se quiser.
+// O README usa só Sobre e Habilidades; as outras funções ficam aqui para voltar com elas se quiser.
 mkdirSync(OUT, { recursive: true });
 const files = {
   'about.svg': buildAbout(),
+  'skills.svg': buildSkills(),
   'social-mail.svg': buildSocial('FiMail', 'Email'),
   'social-github.svg': buildSocial('FiGithub', 'GitHub'),
   'social-linkedin.svg': buildSocial('FiLinkedin', 'LinkedIn'),
