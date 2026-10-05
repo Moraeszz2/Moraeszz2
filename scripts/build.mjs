@@ -740,20 +740,13 @@ ${body}
 // ---------- ABOUT ----------
 function buildAbout() {
   const W = 1200, H = 680;
-  const gx = 88, top = 230;
-  const av = { cx: gx + 120, cy: top + 150, r: 112 };
-  const cardX = gx + 240 + 56, cardW = 1024 - 240 - 56, cardY = top + 20, cardH = 372;
+  const top = 230;
+  const cardW = 860, cardX = (W - cardW) / 2, cardY = top + 20, cardH = 372;
 
   const p1 = ['Desenvolvedor Full Stack com experiência em criar aplicações web modernas e', 'escaláveis. Apaixonado por tecnologia e sempre em busca de novos desafios.'];
   const p2 = ['Especializado em JavaScript, React, Node.js e bancos de dados relacionais.', 'Comprometido em escrever código limpo e manterível, seguindo as melhores', 'práticas do mercado.'];
   const tx = cardX + 56;
   const para = (lines, y0, delay) => `<g class="blurin" style="animation-delay:${delay}s">${lines.map((l, i) => `<text class="sans" x="${tx}" y="${y0 + i * 25}" font-size="16" fill="#d1d5db">${esc(l)}</text>`).join('')}</g>`;
-
-  const orbit = ['🕷️', '🥀', '⛓️', '🦇'].map((e, i) => {
-    const a = (i * Math.PI) / 2;
-    const R = av.r + 40;
-    return `<g transform="translate(${(av.cx + R * Math.sin(a)).toFixed(1)} ${(av.cy - R * Math.cos(a)).toFixed(1)})"><g class="counter"><text class="emoji" font-size="24" text-anchor="middle" y="9">${e}</text></g></g>`;
-  }).join('');
 
   const statW = (cardW - 56 - 32 - 16) / 2;
   const stats = [['NOME', 'Guilherme Moraes da Silva', 16], ['EMAIL', 'dev.moraes.codes@gmail.com', 14]].map(([label, value, fs], i) => {
@@ -766,29 +759,18 @@ function buildAbout() {
   }).join('');
 
   const css = `${titleCss}
-    .spin{transform-origin:${av.cx}px ${av.cy}px;animation:spin 6s linear infinite}
-    .orbit{transform-origin:${av.cx}px ${av.cy}px;animation:spin 22s linear infinite}
-    .counter{animation:spin 22s linear infinite reverse}
-    @keyframes spin{to{transform:rotate(360deg)}}
     .diary{transform-box:fill-box;transform-origin:center;animation:diary 4s ease-in-out infinite}
     @keyframes diary{0%,100%{transform:rotate(6deg)}50%{transform:rotate(2deg)}}
     .blurin{animation:blurin .7s ease-out both}
     @keyframes blurin{from{opacity:0;filter:blur(8px);transform:translateY(10px)}to{opacity:1;filter:none;transform:none}}
     .pop{animation:popin .6s cubic-bezier(.34,1.56,.64,1) both}
     @keyframes popin{from{opacity:0;transform:translateY(20px) scale(.9)}to{opacity:1;transform:none}}
-    .avatar{animation:avatar 1s cubic-bezier(.34,1.3,.64,1) both}
-    @keyframes avatar{from{opacity:0;transform:scale(.5) rotate(-30deg)}to{opacity:1;transform:none}}`;
+`;
 
   const body = `
   ${backdrop(W, H, '#0b0514', '#12030a')}
   <defs>
     ${titleDefs}
-    <linearGradient id="ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e11d48"/><stop offset=".5" stop-color="#000"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-    <linearGradient id="ring2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000"/><stop offset=".5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000"/></linearGradient>
-    <clipPath id="avclip"><circle cx="${av.cx}" cy="${av.cy}" r="${av.r}"/></clipPath>
-    <filter id="gray" color-interpolation-filters="sRGB"><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncR type="linear" slope="1.25" intercept="-.125"/><feFuncG type="linear" slope="1.25" intercept="-.125"/><feFuncB type="linear" slope="1.25" intercept="-.125"/></feComponentTransfer></filter>
-    <linearGradient id="avtint" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#881337" stop-opacity=".5"/><stop offset="1" stop-color="#881337" stop-opacity="0"/></linearGradient>
-    <filter id="ringblur"><feGaussianBlur stdDeviation="2"/></filter>
     <filter id="cardglow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#e11d48" flood-opacity=".12"/></filter>
     <pattern id="lines" x="0" y="${cardY}" width="10" height="32" patternUnits="userSpaceOnUse"><rect y="31" width="10" height="1" fill="#e11d48" fill-opacity=".08"/></pattern>
     <clipPath id="cardclip"><rect x="${cardX}" y="${cardY}" width="${cardW}" height="${cardH}" rx="16"/></clipPath>
@@ -800,19 +782,6 @@ function buildAbout() {
   ${ghost(60, 540, '🎃', 30, 1.6, 0.2)}
   ${sectionTitle(W / 2, 20, 'SOBRE', '👻')}
 
-  <g class="avatar">
-    <g class="spin">
-      <circle cx="${av.cx}" cy="${av.cy}" r="${av.r + 3}" fill="none" stroke="url(#ring)" stroke-width="8" filter="url(#ringblur)"/>
-      <circle cx="${av.cx}" cy="${av.cy}" r="${av.r + 3}" fill="none" stroke="url(#ring)" stroke-width="7"/>
-    </g>
-    <circle cx="${av.cx}" cy="${av.cy}" r="${av.r}" fill="#000"/>
-    <g clip-path="url(#avclip)">
-      <image href="data:image/jpeg;base64,${b64('avatar.jpg')}" x="${av.cx - av.r + 4}" y="${av.cy - av.r + 4}" width="${av.r * 2 - 8}" height="${av.r * 2 - 8}" filter="url(#gray)"/>
-      <circle cx="${av.cx}" cy="${av.cy}" r="${av.r - 4}" fill="url(#avtint)" style="mix-blend-mode:multiply"/>
-    </g>
-    <circle cx="${av.cx}" cy="${av.cy}" r="${av.r - 2}" fill="none" stroke="#000" stroke-width="4"/>
-    <g class="orbit">${orbit}</g>
-  </g>
 
   <g class="blurin" style="animation-delay:.15s">
     <g filter="url(#cardglow)"><rect x="${cardX}" y="${cardY}" width="${cardW}" height="${cardH}" rx="16" fill="#050205"/></g>
