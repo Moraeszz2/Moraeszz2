@@ -828,7 +828,7 @@ function buildFooter() {
 // O README usa só Sobre e Habilidades; as outras funções ficam aqui para voltar com elas se quiser.
 mkdirSync(OUT, { recursive: true });
 const files = {
-  'about.svg': buildAbout(),
+  'sobre.svg': buildAbout(),
   'skills.svg': buildSkills(),
   ...buildBandSlices(),
 };
