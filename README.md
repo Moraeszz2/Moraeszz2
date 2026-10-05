@@ -1,52 +1,25 @@
 <div align="center">
 
-<img src="https://github.com/Moraeszz2/Moraeszz2/blob/main/images/banner-my-name.gif" width="100%" alt="banner"/>
+<img src="images/hero.svg" width="100%" alt="Guilherme Moraes da Silva — Desenvolvedor Full-Stack"/>
 
-<img src="https://komarev.com/ghpvc/?username=Moraeszz2&style=for-the-badge&color=3B82F6&abbreviated=true" alt="profile views"/>
+<img src="images/marquee.svg" width="100%" alt="não é uma fase, é uma stack"/>
+
+<img src="images/skills.svg" width="100%" alt="Habilidades"/>
+
+<a href="https://github.com/Moraeszz2?tab=repositories"><img src="images/repos.svg" width="100%" alt="Repositórios"/></a>
+
+<a href="https://github.com/Moraeszz2?tab=repositories"><img src="images/view-all.svg" width="240" alt="Ver todos no GitHub"/></a>
+
+<img src="images/marquee-reverse.svg" width="100%" alt="dark mode pra sempre"/>
+
+<img src="images/about.svg" width="100%" alt="Sobre"/>
+
+<a href="mailto:dev.moraes.codes@gmail.com"><img src="images/social-mail.svg" width="52" alt="Email"/></a>
+<a href="https://github.com/Moraeszz2"><img src="images/social-github.svg" width="52" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/guilherme-da-silva-b368a81a0"><img src="images/social-linkedin.svg" width="52" alt="LinkedIn"/></a>
+
+<img src="https://raw.githubusercontent.com/Moraeszz2/Moraeszz2/output/snake-blood.svg" width="100%" alt="snake"/>
+
+<img src="images/footer.svg" width="100%" alt="feito com 💀 & muito café"/>
 
 </div>
-
-<h2 align="center">🛠️ Technology Stack</h2>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-React-00ADD8?style=for-the-badge&logo=react&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-TypeScript-00ADD8?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-Ant_Design-00ADD8?style=for-the-badge&logo=antdesign&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-Docker-00ADD8?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117"/>
-</p>
-<p align="center">
-    <img src="https://img.shields.io/badge/-CSS3-FF6D2E?style=for-the-badge&logo=css3&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-MySQL-FF6D2E?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-RabbitMQ-FF6D2E?style=for-the-badge&logo=rabbitmq&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-Git-FF6D2E?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-HTML5-FF6D2E?style=for-the-badge&logo=html5&logoColor=white&labelColor=0D1117"/>
-</p>
-<p align="center">
-    <img src="https://img.shields.io/badge/-Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-Vue.js-3C873A?style=for-the-badge&logo=vue.js&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-MongoDB-3C873A?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-PHP-787CB4?style=for-the-badge&logo=php&logoColor=white&labelColor=0D1117"/>
-</p>
-<p align="center">
-    <img src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=black&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white&labelColor=0D1117"/>
-    <img src="https://img.shields.io/badge/-Java-E34A86?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=0D1117"/>
-</p>
-
-<h2 align="center">📌 Top Open Source</h2>
-
-<div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Moraeszz2&repo=PadLume&border_color=3B82F6&bg_color=0D1117&title_color=C9D1D9&text_color=8B949E&icon_color=3B82F6"/>
-</div>
-
-<h2 align="center">📊 GitHub Stats</h2>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moraeszz2&theme=tokyonight&border_color=3B82F6&background=0D1117" alt="GitHub streak"/>
-</p>
-
-<p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=Moraeszz2&show_icons=true&theme=tokyonight&rank_icon=github&border_color=3B82F6&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moraeszz2&exclude_repo=processos,createLabb&langs_count=7&theme=tokyonight&border_color=3B82F6&bg_color=0D1117&title_color=F85D7F" height="192px"/>
-</p>
