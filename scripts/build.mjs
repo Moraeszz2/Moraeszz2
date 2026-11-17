@@ -193,7 +193,7 @@ const modagrid = () => {
   };
   const body = `<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="22" fill="${C.ink}" stroke="${C.line}"/>
   <g transform="translate(36 36)">
-    <rect width="226" height="28" rx="14" fill="${C.line}"/>
+    <rect width="${28 + 'saas · em testes com lojistas'.length * 7.23 + 14}" height="28" rx="14" fill="${C.line}"/>
     <circle cx="16" cy="14" r="4.5" fill="${C.wip}" class="pulse"/>
     ${text(28, 18.5, 'saas · em testes com lojistas', { size: 12, fill: C.soft, cls: 'mono' })}
   </g>
