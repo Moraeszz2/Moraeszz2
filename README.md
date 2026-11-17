@@ -14,10 +14,6 @@
 
 <a href="https://dev-moraes-tec.com.br/modagrid/"><img src="images/modagrid.svg" width="100%" alt="ModaGrid: integradora de marketplaces"/></a>
 
-<a href="https://dev-moraes-tec.com.br/modagrid/"><img src="images/modagrid-painel.jpg" width="100%" alt="Painel do ModaGrid com receita, pedidos, lucro e vendas por canal (dados de exemplo)"/></a>
-
-<sub>Painel do ModaGrid com dados de exemplo.</sub>
-
 <br/><br/>
 
 <img src="images/stack.svg" width="100%" alt="Stack: Node.js, NestJS, TypeScript, React, Vue.js, Go, MySQL, MongoDB, RabbitMQ e Docker"/>
