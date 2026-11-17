@@ -1,8 +1,8 @@
 # Fontes
 
-Embutidas nos SVGs do README. Todas sob a [SIL Open Font License 1.1](https://openfontlicense.org), via Google Fonts:
+Embutidas nos SVGs do README. Ambas sob a [SIL Open Font License 1.1](https://openfontlicense.org):
 
-- Space Grotesk (`grotesk.woff2`) — Florian Karsten
-- Chivo Mono (`chivo.woff2`) — Omnibus-Type
-- Pirata One (`pirata.woff2`) — Rodrigo Fuenzalida, Nicolas Massi
-- Permanent Marker (`marker.woff2`) — Font Diner
+- Bricolage Grotesque (`bricolage.woff2`) — The Bricolage Grotesque Project Authors
+- IBM Plex Mono (`plexmono.woff2`) — IBM Corp.
+
+Ícones (`icons.json`): Simple Icons (CC0) e Feather (MIT), via react-icons.
